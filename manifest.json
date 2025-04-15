@@ -3,7 +3,14 @@
   "name": "Breakpoint Banner",
   "version": "1.0.0",
   "description": "Displays a sticky banner showing breakpoints on bankrate.com",
-  "permissions": ["activeTab"],
+  "permissions": ["scripting"],
+  "host_permissions": ["*://*.bankrate.com/*"],
+  "action": {
+    "default_title": "Toggle Breakpoint Banner"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
   "content_scripts": [
     {
       "matches": ["*://*.bankrate.com/*"],
