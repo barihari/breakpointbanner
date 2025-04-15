@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Breakpoint Banner",
+  "version": "1.0.0",
+  "description": "Displays a sticky banner showing breakpoints on bankrate.com",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.bankrate.com/*"],
+      "css": ["styles.css"],
+      "js": ["content.js"]
+    }
+  ]
+} 

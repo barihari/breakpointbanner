@@ -1,0 +1,49 @@
+.treasuryBreakpointBanner {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: .80rem;
+    line-height: 1;
+    text-align: center;
+    color: #fff;
+    z-index: 1000;
+}
+
+/* XS Breakpoint */
+@media (max-width: 639px) {
+    .treasuryBreakpointBanner {
+        background-color: #dc2626;
+    }
+}
+
+/* SM Breakpoint */
+@media (min-width: 640px) and (max-width: 879px) {
+    .treasuryBreakpointBanner {
+        background-color: #f97316;
+    }
+}
+
+/* MD Breakpoint */
+@media (min-width: 880px) and (max-width: 1119px) {
+    .treasuryBreakpointBanner {
+        background-color: #f59e0b;
+    }
+}
+
+/* LG Breakpoint */
+@media (min-width: 1120px) and (max-width: 1439px) {
+    .treasuryBreakpointBanner {
+        background-color: #22c55e;
+    }
+}
+
+/* XL Breakpoint */
+@media (min-width: 1440px) {
+    .treasuryBreakpointBanner {
+        background-color: #2563eb;
+    }
+} 
